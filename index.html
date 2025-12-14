@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Personal Profile</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -10,12 +14,15 @@
 
   <div class="profile-card">
     <div class="profile-header">
-      <img src="pp.jpg" alt="Profile Avatar">
+      <img src="pp.jpg" alt="Profile Image">
       <h1>Tursina Yisehak</h1>
-      <span>software engineering student </span>
+      <span>Software Engineering Student</span>
     </div>
+
     <p class="bio">
-       I’m a software engineering student passionate about technology and continuous learning. I enjoy building web projects and exploring how software can solve real-world problems.
+      I’m a software engineering student with an interest in building clean and
+      efficient software. I enjoy working on web projects, learning new
+      technologies, and solving real-world problems through code.
     </p>
     <form id="contactForm">
       <h2>Contact Me</h2>
@@ -23,9 +30,22 @@
       <input type="text" id="name" placeholder="Your Name">
       <input type="email" id="email" placeholder="Your Email">
       <textarea id="message" rows="4" placeholder="Your Message"></textarea>
-
       <button type="submit">Send Message</button>
     </form>
+
+    <footer class="profile-footer">
+      <a href="mailto:tursinayisehak@gmail.com" title="Email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+
+      <a href="https://github.com/tuyy-99" target="_blank" title="GitHub">
+        <i class="fa-brands fa-github"></i>
+      </a>
+
+      <a href="https://www.linkedin.com/in/tursina-yisehak-7a9942358?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" title="LinkedIn">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </footer>
   </div>
 
   <script src="script.js"></script>
