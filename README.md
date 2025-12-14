@@ -7,8 +7,8 @@ A simple personal profile card web page with a clean UI and a working contact fo
 
 Tursina Yisehak
 Email: tursinayisehak@gmail.com
-GitHub: tuyy-99
-LinkedIn: Tursina Yisehak
+GitHub: https://github.com/tuyy-99
+LinkedIn: https://www.linkedin.com/in/tursina-yisehak-7a9942358
 ---
 
 ## 📁 Project Structure
