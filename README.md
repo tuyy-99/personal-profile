@@ -1,7 +1,14 @@
-# Personal Profil
+# Personal Profile
 
 A simple personal profile card web page with a clean UI and a working contact form. This project is built using plain **HTML**, **CSS**, and **JavaScript**. It’s ideal for beginners who want to practice structuring a webpage, styling it nicely, and handling basic form validation.
 
+---
+👤 Author
+
+Tursina Yisehak
+Email: tursinayisehak@gmail.com
+GitHub: tuyy-99
+LinkedIn: Tursina Yisehak
 ---
 
 ## 📁 Project Structure
