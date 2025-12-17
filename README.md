@@ -1,103 +1,167 @@
-# Personal Profile
+# Personal Profile Page
 
-A simple personal profile card web page with a clean UI and a working contact form. This project is built using plain **HTML**, **CSS**, and **JavaScript**. It’s ideal for beginners who want to practice structuring a webpage, styling it nicely, and handling basic form validation.
-
----
-👤 Author
-
-Tursina Yisehak
-Email: tursinayisehak@gmail.com
-GitHub: https://github.com/tuyy-99
-LinkedIn: https://www.linkedin.com/in/tursina-yisehak-7a9942358
----
-
-## 📁 Project Structure
-
-```
-TASK1/
-│
-├── index.html      # Main HTML file
-├── style.css       # CSS styling
-├── script.js       # JavaScript form logic
-└── pp.jpg          # Profile picture
-```
+A clean, modern, and responsive **Personal Profile Page** built using only **HTML and CSS**. This mini project demonstrates **front-end fundamentals** such as semantic HTML, Flexbox, Grid, text styling, gradients, and responsive design — without any CSS frameworks.
 
 ---
 
-## 🧩 Features
+## 📌 Project Overview
 
-* Profile card layout with avatar, name, and role
-* Short bio section
-* Contact form with name, email, and message fields
-* Client-side form validation
-* Friendly success and error alerts
-* Responsive and centered design
+This project showcases a realistic personal profile page that could serve as a **student portfolio**. It includes:
+
+* Semantic HTML structure
+* Core CSS properties
+* Flexbox and Grid layouts
+* Gradient backgrounds
+* Smooth scrolling navigation
+* Responsive design for all device sizes
+
 ---
 
 ## 🛠️ Technologies Used
 
-* **HTML** for structure
-* **CSS** for layout and styling
-* **JavaScript** for form handling and validation
+* **HTML5**
+* **CSS3** (No frameworks or libraries)
 
 ---
 
-## 📄 File Overview
+## ✨ Features
 
-### `index.html`
-
-* Defines the structure of the profile card
-* Contains the profile header, bio, and contact form
-* Links to `style.css` and `script.js`
-
-### `style.css`
-
-* Creates the full-page gradient background
-* Styles the profile card, avatar, text, and form elements
-* Adds hover effects and focus states for better UX
-
-### `script.js`
-
-* Listens for the form submit event
-* Prevents page reload on submit
-* Validates that all fields are filled
-* Shows alerts for success or missing fields
-* Resets the form after successful submission
+* Gradient-based, modern UI
+* Sticky top **navbar** with smooth scrolling
+* Header section with name, role, and avatar
+* Profile section with Flexbox layout
+* Skills section displayed as cards using CSS Grid
+* Styled contact form
+* Responsive layout for mobile devices
+* Clean, readable, and professional design
 
 ---
 
-## ▶️ How to Run the Project
+## 📂 Project Structure
 
-1. Download or clone the project folder
-2. Make sure all files are in the same directory structure shown above
-3. Open `index.html` in any modern web browser
-
-No server or build step is required.
-
----
-
-## ✏️ Customization
-
-You can easily personalize this project:
-
-* Replace `pp.jpg` with your own image
-* Update the name, role, and bio text in `index.html`
-* Adjust colors, fonts, or layout in `style.css`
-* Extend `script.js` to send form data to a backend or email service
+```
+Personal-Profile-Page/
+│
+├── index.html
+├── style.css
+├── profile.jpg       # Avatar image
+└── README.md
+```
 
 ---
 
-## 📌 Notes
+## 🖼 Screenshots
 
-* This project uses JavaScript alerts for simplicity
-* Form submission is handled entirely on the client side
+### Desktop View
+
+<img width="1267" height="674" alt="image" src="https://github.com/user-attachments/assets/64cd4784-fb60-4262-8274-af9c3836ac98" />
+<img width="1312" height="685" alt="image" src="https://github.com/user-attachments/assets/ff769a29-4020-47a6-853d-9b352d8b64ee" />
+
+
+
+### Mobile View
+
+<img width="320" height="612" alt="image" src="https://github.com/user-attachments/assets/0ef79723-ca39-4707-a959-39a1e003f68b" />
+<img width="349" height="611" alt="image" src="https://github.com/user-attachments/assets/0ae37da0-9444-4f53-9a29-0131491fc397" />
+<img width="344" height="615" alt="image" src="https://github.com/user-attachments/assets/fe9605f9-92ed-4056-9f98-28de31e2bbd3" />
+![Uploading image.png…]()
+![Uploading image.png…]()
+
+
+
+
+---
+
+## 📄 Sections Breakdown
+
+### 1. Navbar
+
+* Sticky top navbar with links to each section
+* Smooth scrolling on click
+* Gradient background to match page theme
+* Responsive design for mobile screens
+
+### 2. Header Section
+
+* Displays full name and professional title
+* Avatar image next to text (Flexbox layout)
+* Text styled with `font-size`, `font-weight`, `text-transform`, and `text-align`
+
+### 3. About Section
+
+* Short bio describing skills and interests
+* Centered and readable text
+* Responsive for mobile
+
+### 4. Skills Section
+
+* Skills displayed as cards in **CSS Grid**
+* Responsive: switches to single column on small screens
+* Cards include background gradients, centered text, hover effects
+
+### 5. Contact Section
+
+* Simple contact form:
+
+  * Name input
+  * Email input
+  * Message textarea
+  * Submit button
+* Form styled for readability and spacing
+* Responsive and mobile-friendly
+
+### 6. Footer
+
+* Displays name and copyright
+* Social links (Email, GitHub, LinkedIn) with consistent icons and hover effect
+* Content centered at the bottom
+
+---
+
+## 🎨 CSS Concepts Used
+
+* **Display Properties:** `block`, `inline-block`
+* **Flexbox:** `display: flex`, `justify-content`, `align-items`, `flex-direction`
+* **Grid:** `display: grid`, `grid-template-columns`, `gap`
+* **Text Styling:** `text-transform`, `text-align`, `font-size`
+* **Fonts:** `font-family`, `font-weight`
+* **Backgrounds:** linear gradients, background colors
+* **Smooth scrolling:** `scroll-behavior: smooth`
+
+---
+
+## 📱 Responsive Design
+
+* Flex layouts stack vertically on small screens
+* Grid switches to a single column
+* Text and images remain readable
+* Navbar adjusts for mobile spacing
+
+---
+
+## 🧑‍🎨 Profile Image Note
+
+* An **avatar** is used instead of a real photo
+* Looks professional and privacy-friendly
+* Suitable for student portfolio submissions
+
+---
+
+## 🚀 How to Run the Project
+
+1. Clone or download the repository
+2. Open `index.html` in a modern web browser
+3. No additional setup required
+
+---
+
+## 👤 Author
+
+**Tursina Yisehak**
+Software Engineering Student
 
 ---
 
 ## 📜 License
 
-This project is open for learning and personal use. You are free to modify and reuse it as you like.
-
----
-
-Happy coding 🙂
+This project is for educational purposes as a mini front-end project.
